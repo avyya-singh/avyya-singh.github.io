@@ -21,3 +21,9 @@ Includes light/dark themes, keyboard-accessible controls, reduced-motion support
 Pikachu sprite: [PokeAPI/sprites](https://github.com/PokeAPI/sprites). Pokemon character designs belong to their respective owners. See `dist/ASSET-CREDITS.txt`. Other pixel illustrations are drawn in CSS. Unused artwork from earlier explorations is excluded from Git.
 
 This repository contains the Pikachu version. The original block portfolio is preserved separately. This portfolio has not been deployed; project demo links above are separate sites.
+
+## Companion and responsive behavior
+
+Pikachu naps after roughly ten seconds of inactivity, peeks at project cards on hover or keyboard focus, and celebrates when the footer enters view. Following off keeps him in his home area. Touch devices start with following off; enabling it allows scroll-driven reactions. Reduced-motion preferences disable animated movement, including when changed while the page is open.
+
+Navigation highlights the current section. Layouts were manually checked at 320px, 375px, and 768px, with 44px navigation and control targets.
